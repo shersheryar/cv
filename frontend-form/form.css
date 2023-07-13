@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form{
+
+    background: linear-gradient(-45deg, #45caff 0%, #221c1e 100%);
+    height: max-content;
+    width: max-content;
+    padding: 2rem ;
+    margin: 2% auto;
+    border-radius: 10px;
+    
+    box-shadow: rgb(50 50 93 / 25%) 0 0 100px -20px, rgb(0 0 0 / 30%) 0 0 60px -15px;
+}
+input{
+    /* margin-top: 1rem; */
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding:10px;
+}
+.custom-file-label:hover{
+    border:white solid 1px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+@media (max-width:575px) {
+    .name input,
+    .email input ,
+    .cnic input ,
+    .phoneno input, 
+    .dob input ,
+    .address input,
+    .title input,
+    .institute input, 
+    .from input,
+    .to input,
+    .marks input,
+    .position input,
+    .organization input,
+    .join input,
+    .resign input{
+      width: 100% !important;
+    }
+}
